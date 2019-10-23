@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter\\MC_CurrencyConverter.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter.Logic\\MC_CurrencyConverter.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter.Logic\\MC_CurrencyConverter.Logic.csproj",
+        "projectName": "MC_CurrencyConverter.Logic",
+        "projectPath": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter.Logic\\MC_CurrencyConverter.Logic.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-rc1-014190\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter\\MC_CurrencyConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter\\MC_CurrencyConverter.csproj",
+        "projectName": "MC_CurrencyConverter",
+        "projectPath": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter\\MC_CurrencyConverter.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter.Logic\\MC_CurrencyConverter.Logic.csproj": {
+                "projectPath": "C:\\Users\\chris\\Google Drive\\Schule\\52Klasse\\Mobile-Computing\\reposVS\\MC_CurrencyConverter\\MC_CurrencyConverter.Logic\\MC_CurrencyConverter.Logic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-rc1-014190\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
